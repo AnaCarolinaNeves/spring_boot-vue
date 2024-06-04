@@ -37,14 +37,14 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="vocabulo in vocabulos" :key="vocabulo.id">
+                <!-- <tr v-for="vocabulo in vocabulos" :key="vocabulo.id">
                     <td>{{ vocabulo.id }}</td>
                     <td>{{ vocabulo.termo }}</td>
                     <td>{{ vocabulo.significado }}</td>
                     <td>{{ vocabulo.versao }}</td>
                     <td>{{ vocabulo.dataHoraCadastro }}</td>
                     <td>{{ situacao(vocabulo.dataHoraDesativacao) }}</td>
-                </tr>
+                </tr> -->
             </tbody>
         </table>
         <button @click="limparConsulta">Mostrar Todos</button>
